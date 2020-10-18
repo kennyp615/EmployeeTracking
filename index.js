@@ -106,8 +106,13 @@ function addEmployee() {
             }
         ])
         .then(function(res) {
+            var firstName = res.first_name;
             const query = connection.query(
                 "INSERT INTO employees SET ?",
+                {
+                    first_name: first_name,
+                    
+                }
                 res,
                 function(err, res) {
                     if (err) throw err;

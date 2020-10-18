@@ -10,7 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "console.table": "^0.10.0",
+    "express": "^4.17.1",
     "inquirer": "^7.3.3",
+    "my-sql": "^1.2.15",
     "mysql": "^2.18.1"
   },
   "devDependencies": {},
@@ -21,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/kennyp615/EmployeeTracking/issues"
   },
-  "homepage": "https://github.com/kennyp615/EmployeeTracking#readme"
+  "homepage": "https://github.com/kennyp615/EmployeeTracking#readme",
+  "keywords": []
 }
